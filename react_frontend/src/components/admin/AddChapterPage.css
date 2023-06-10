@@ -1,0 +1,80 @@
+.add-chapter-page-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-chapter-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  background-color:none;
+}
+
+.back-button img {
+  width: 24px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+.chapter-articles {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.inp_chap,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.cancel-button,
+.validate-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+}
+
+.validate-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+.validate-button,
+.cancel-button {
+  
+  transition: background-color 0.3s ease;
+}
+
+.validate-button:hover {
+  background-color: #0056b3;
+}
+.chapter-buttons{
+  display: flex;
+  justify-content: flex-end;
+}
